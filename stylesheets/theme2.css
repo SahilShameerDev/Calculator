@@ -1,9 +1,10 @@
 body{
-    background-color: hsl(222, 26%, 31%);
+    /* Main Background */
+    background-color: hsl(0, 0%, 90%);
 }
 
 .result-box{
-    background-color: hsl(224, 36%, 15%);
+    background-color: hsl(0, 0%, 93%);
     height: 70px;
     width: 380px;
     position: absolute;
@@ -15,7 +16,7 @@ body{
 }
 .heading{
     font-family: 'Spartan', sans-serif;
-    color: #fff;
+    color: hsl(60, 10%, 19%);
     position: absolute;
     top: 10%;
     left: 38%;
@@ -23,14 +24,14 @@ body{
 }
 .final-value{
     font-family: 'Spartan', sans-serif;
-    color: #fff;
+    color: rgb(29, 25, 25);
     font-size: 40px;
     text-align: right;
     margin: 10px;
     
 }
 .num-box{
-    background-color: hsl(223, 24%, 23%);
+    background-color: hsl(0, 5%, 81%);
     height: 310px;
     width: 360px;
     position: absolute;
@@ -42,8 +43,8 @@ body{
     
 }
 .btn-num{
-    background-color: hsl(30, 25%, 89%);
-    color: hsl(222, 12%, 27%);
+    background-color: hsl(45, 7%, 89%);
+    color: hsl(60, 10%, 19%);
     border-radius: 5px;
     outline: none;
     border: none;
@@ -53,10 +54,10 @@ body{
     width: 71px;
     height: 50px;
     margin: 7px;
-    box-shadow: 0 3px hsl(28, 16%, 65%)
+    box-shadow: 0 3px hsl(35, 11%, 61%);
 }
 .btn-del{
-    background-color: hsl(225, 21%, 49%);
+    background-color: hsl(185, 42%, 37%);
     color: hsl(30, 25%, 89%);
     border-radius: 5px;
     outline: none;
@@ -67,10 +68,10 @@ body{
     width: 71px;
     height: 50px;
     margin: 7px;
-    box-shadow: 0 3px hsl(224, 28%, 35%);
+    box-shadow: 0 3px hsl(185, 58%, 25%);
 }
 .btn-reset{
-    background-color: hsl(225, 21%, 49%);
+    background-color: hsl(185, 42%, 37%);
     color: hsl(30, 25%, 89%);
     border-radius: 5px;
     outline: none;
@@ -82,10 +83,10 @@ body{
     height: 40px;
     margin: 7px;
     margin-top: 14px;
-    box-shadow: 0 3px hsl(224, 28%, 35%);
+    box-shadow: 0 3px hsl(185, 58%, 25%);
 }
 .btn-equal{
-    background-color: hsl(6, 63%, 50%);
+    background-color: hsl(25, 98%, 40%);
     color: hsl(6, 70%, 34%);
     border-radius: 5px;
     outline: none;
@@ -97,7 +98,7 @@ body{
     height: 40px;
     margin: 7px;
     margin-top: 14px;
-    box-shadow: 0 3px hsl(224, 28%, 35%);
+    box-shadow: 0 3px hsl(25, 99%, 27%);
 }
 .slidecontainer{
     position: absolute;
@@ -137,7 +138,7 @@ body{
   }    
   .theme{
     font-family: 'Spartan', sans-serif;
-    color: #fff;
+    color: rgb(59, 52, 52);
     position: absolute;
     top: 12%;
     left: 58%;
@@ -146,7 +147,7 @@ body{
   }
   .slidernum{
     font-family: 'Spartan', sans-serif;
-    color: #fff;
+    color: rgb(75, 51, 51);
     position: absolute;
     top: 10%;
     left: 62.8%;
